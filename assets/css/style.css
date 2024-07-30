@@ -852,9 +852,29 @@ footer{
     .nav-btn.btn-fill iconify-icon {
         font-size: 18px;
     }
+    .add-Wishlist-btn {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:390px) {
+    .swiper-wrapper {
+        height: 150px;
+    }
+    .newslater_wrapper .form-control {
+        font-size: 14px;
+    }
+    .newslater_wrapper .btn {
+        font-size: 14px;
+    }
+    .swiper-slide {
+        height: 100px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+    .swiper-slide-active {
+        height: 150px;
+    }
     .container-xl {
         padding: 0px 10px;
     }
