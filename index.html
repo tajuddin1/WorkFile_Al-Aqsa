@@ -30,13 +30,13 @@
                         <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center position-relative"><iconify-icon class="me-3" icon="teenyicons:heart-outline"></iconify-icon> <span class="count d-flex align-items-center justify-content-center">4</span> Wishlist</a>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 main-nav">
                     <ul class="d-flex align-items-center justify-content-between list-unstyled mb-0">
-                        <li class="me-3">
+                        <li class="me-xl-3">
                             <a href="#" class="d-flex text-decoration-none">
                                 <div class="nav-btn d-flex align-items-center justify-content-center btn-fill">
                                     <iconify-icon class="me-2" icon="teenyicons:grid-layout-outline"></iconify-icon>
-                                    Brows All Categories
+                                    Browse All Categories
                                 </div>
                             </a>
                         </li>
@@ -66,7 +66,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
+                <div class="col-6 d-lg-flex justify-content-end contact-info-nav d-none ">
                     <ul class="d-flex align-items-center list-unstyled mb-0">
                         <li>
                             <a href="#" class="d-flex text-decoration-none">
@@ -89,6 +89,7 @@
             </div>
         </div>
     </nav>
+    <div class="gap"></div>
     <section class="hero-section position-relative d-flex align-items-center">
         <div class="container-xl">
             <div class="main-content">
@@ -103,7 +104,7 @@
             <div class="bg-image position-absolute"><img class="h-100" src="assets/images/Hreo-img.png" alt=""></div>
         </div>
     </section>
-    <section class="py-5 my-5">
+    <section class="py-lg-5 my-5">
         <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -251,10 +252,10 @@
     <section class="py-5">
         <div class="container-xl">
             <div class="row">
-                <div class="col-6">
-                    <h2 class="section-title mb-5">Featured Products</h2>
+                <div class="col-sm-4 col-lg-6">
+                    <h2 class="section-title mb-3 mb-md-5">Featured Products</h2>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
+                <div class="col-sm-8 col-lg-6 d-flex justify-content-end">
                     <ul class="list-unstyled d-flex flex-wrap mb-4 mb-md-5">
                         <li class="me-2 mb-2">
                             <label class="filterBtn active">
@@ -422,7 +423,7 @@
     <footer>
         <div class="container-xl">
             <div class="row">
-                <div class="col-7">
+                <div class="col-sm-9 col-lg-7 mb-4 mb-sm-0">
                     <div class="footer-logo mb-3">
                         <a href="#">
                             <img src="assets/images/Logo.png" alt="">
@@ -455,10 +456,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-5 d-flex justify-content-end">
+                <div class="col-sm-3 col-lg-5 d-flex justify-sm-content-end">
                     <div>
                         <h5>Useful links</h5>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled mb-0">
                             <li class="mb-2"><a href="#" class="text-decoration-none footer-link">About Us</a></li>
                             <li class="mb-2"><a href="#" class="text-decoration-none footer-link">Conact</a></li>
                             <li class="mb-2"><a href="#" class="text-decoration-none footer-link">Deals</a></li>
@@ -467,13 +468,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 my-4">
+                <div class="col-12 my-3 my-xl-4">
                     <hr>
                 </div>
-                <div class="col-6">
+                <div class="col-8 d-flex align-items-center">
                     <span class="footer-last">© 2024, All rights reserved</span>
                 </div>
-                <div class="col-6 text-end">
+                <div class="col-4 text-end">
                    <a href="#"> <img src="assets/images/facebook.png" alt=""></a>
                 </div>
             </div>
@@ -513,12 +514,15 @@
             nav:true,
             responsive:{
                 0:{
-                    items:1
+                    items:2
                 },
-                600:{
+                590:{
                     items:3
                 },
-                1000:{
+                790:{
+                    items:4
+                },
+                992:{
                     items:5
                 }
             }
